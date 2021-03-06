@@ -109,6 +109,67 @@ header::before {
     float: right;
 }
 
+footer {
+    background-color: black;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 18px;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+.skills ul{
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    margin: 20px 0px;
+}
+
+.bar {
+    background-color: white;
+    display: block;
+    height: 2px;
+    border: 1px solid black;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgb(63, 62, 62);
+}
+
+.bar span {
+    height: 2px;
+    float: left;
+    background-color: black;
+}
+
+.c {
+    width: 75%;
+    animation: c 5s;
+}
+
+@keyframes c {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+
+
 @media only screen and (max-device-width: 480px) {
     header::before {
         content: "";
@@ -141,13 +202,19 @@ header::before {
         font-size: 12px;
     }
 
-    .project_date {
-        float: none;
+    footer {
+        padding: 0;
+        padding-top: 50px;
+        font-size: 13px;
     }
 
     .project_date::before {
         content: "\a";
         white-space: pre;
+    }
+
+    .bar span {
+        height: 3px;
     }
 }
 
