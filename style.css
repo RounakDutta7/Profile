@@ -145,12 +145,15 @@ footer a {
     border-radius: 3px;
     overflow: hidden;
     box-shadow: 0 0 10px rgb(63, 62, 62);
+    padding: 0;
+    margin: 0;
 }
 
 .bar span {
     height: 2px;
     float: left;
     background-color: black;
+    border-radius: 3px;
 }
 
 .c {
