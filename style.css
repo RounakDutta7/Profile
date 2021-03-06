@@ -7,6 +7,10 @@ html {
     font-family: 'Lato', sans-serif;
 }
 
+* {
+    padding: 0;
+}
+
 a {
     text-decoration: none;
 }
@@ -153,7 +157,6 @@ footer a {
     height: 2px;
     float: left;
     background-color: black;
-    border-radius: 3px;
 }
 
 .c {
@@ -162,6 +165,81 @@ footer a {
 }
 
 @keyframes c {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+.cpp {
+    width: 75%;
+    animation: cpp 5s;
+}
+
+@keyframes cpp {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+.html {
+    width: 75%;
+    animation: html 5s;
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+.css {
+    width: 75%;
+    animation: css 5s;
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+.python {
+    width: 75%;
+    animation: python 5s;
+}
+
+@keyframes python {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+.react {
+    width: 75%;
+    animation: react 5s;
+}
+
+@keyframes react {
     0% {
         width: 0%;
     }
