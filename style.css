@@ -125,7 +125,7 @@ footer {
     width: 100%;
     text-align: center;
     padding-top: 80px;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 footer a {
@@ -281,9 +281,8 @@ footer a {
     }
 
     footer {
-        padding: 0;
         padding-top: 50px;
-        font-size: 13px;
+        font-size: 10px;
     }
 
     .project_date::before {
@@ -316,6 +315,13 @@ footer a {
     header a {
         top: 4%;
         left: 80%;
+    }
+
+    footer {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 50px;
+        font-size: 13px;
     }
 
     .container {
