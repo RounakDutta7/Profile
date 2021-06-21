@@ -50,6 +50,7 @@ header {
     transform-style: inherit;
     width: 100vw;
     text-align: center;
+    background-color: red;
 }
 
 header h1 {
@@ -66,17 +67,22 @@ header h1 {
 header a {
     margin: 0;
     position: absolute;
-    color: black;
+    color: var(--frontColor);
+    background-color: var(--backColor);
     left: 90%; 
     top: 5%; 
     border:2px solid black; 
     padding: 10px 15px; 
 }
 
+header a:hover {
+    color: var(--frontColor);
+    background-color: var(--backColor);
+}
+
 header button {
     margin: 0;
     position: absolute;
-    color: black;
     left: 85%; 
     top: 5%;
     padding: 10px 15px; 
@@ -86,11 +92,6 @@ header button {
     background:transparent;
     border: none;
     cursor: pointer;
-}
-
-header a:hover {
-    background-color: black;
-    color: white;
 }
 
 header,
