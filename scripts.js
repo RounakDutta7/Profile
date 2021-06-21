@@ -54,3 +54,8 @@ window.onload = function () {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid black}";
     document.body.appendChild(css);
 };
+
+function toggleDarkMode() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+}
