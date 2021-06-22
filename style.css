@@ -6,7 +6,7 @@ html {
     overflow: hidden;
     font-family: 'Lato', sans-serif;
 
-    --backColor: white;
+    --backColor: #F8F9FA;
     --frontColor: black;
 }
 
@@ -29,7 +29,7 @@ li {
 
 .dark-mode {
     --backColor: #121212;
-    --frontColor: white;
+    --frontColor: #F8F9FA;
 }
 
 body {
@@ -139,7 +139,7 @@ header::before {
 
 footer {
     background-color: black;
-    color: white;
+    color: #F8F9FA;
     z-index: 2;
     position: absolute;
     bottom: 0;
@@ -152,7 +152,7 @@ footer {
 }
 
 footer a {
-    color: white;
+    color: #F8F9FA;
     text-decoration: underline;
 }
 
@@ -166,7 +166,7 @@ footer a {
 }
 
 .bar {
-    background-color:white;
+    background-color:#F8F9FA;
     display: block;
     height: 5px;
     padding: 0;
